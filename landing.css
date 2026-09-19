@@ -1,0 +1,63 @@
+body{
+    font-family:  Orbitron, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    font-family: Orbitron, sans-serif ;
+    display: flex;
+    background-color:#111121 ;
+    justify-content: space-between;
+    align-items:center ;
+    height: 60px;
+    border-bottom:2px solid #3a3260;
+    position:sticky;
+    top: 0;
+    z-index: 1000;   
+}
+ 
+.title{
+    cursor: pointer;
+    padding-inline:0.7rem ;
+}
+.links{
+    display: flex;
+    gap: 4rem;
+    align-items: center; /* Ensures icons and text are vertically aligned */
+}
+.links a {
+    color: #4F4F57;
+    font-weight: 550;
+    text-decoration: none;
+}
+.links>:nth-child(3){
+    background-color: #272341;
+    padding: 0.3rem 0.6rem;
+    border-radius: 7px;
+    color: #A78BFA;
+}
+
+.navbar h2{
+    color: #A78BFA;
+}
+.navbar > h2 > span{
+    font-weight:300;
+    font-size: 1.3rem;
+    margin-right: 1.7px;
+}
+
+.cart-register{
+    display: flex;
+    gap: 1.5rem;
+}
+.register{
+    color: white;
+    background-color: #A78BFA;
+    text-decoration: none;
+    padding: 8px ;
+    border-radius: 8.5px;
+    margin-right: 1.1rem;
+}

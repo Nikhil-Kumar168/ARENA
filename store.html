@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARENA</title>
+    <link rel="stylesheet" href="store.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart"
+    />
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <h2 class="title"><span>⬡</span>ARENA</h2>
+      <div class="links">
+        <a href="store.html"> 
+          <i class="ti ti-device-gamepad-2"></i> Store</a>
+        <a href="dashboard.html" target="_blank"> 
+          <i class="ti ti-layout-dashboard"></i> Dashboard</a>
+        <a href="landing.html" target="_blank">
+          <i class="ti ti-trophy"></i> Events</a>
+      </div>
+      <div class="cart-register">
+        <span id="cart"
+          ><span class="material-symbols-outlined">shopping_cart</span>2
+        </span>
+        <a href="#" class="register" target="_blank">Register</a>
+      </div>
+    </div>
+    
+    <main class="main">
+      <aside class="filter-section">
+        <div class="filter">
+          <h3>FILTERS</h3>
+
+          <div class="category">
+            <h4>Category</h4>
+            <label for="All">
+              <input type="checkbox" value="All" id="All" checked />All
+            </label>
+            <br />
+            <label for="Headset">
+              <input type="checkbox" value="Headset" id="Headset" />Headset
+            </label>
+            <br />
+            <label for="Monitor">
+              <input type="checkbox" value="Monitor" id="Monitor" />Monitor
+            </label>
+            <br />
+            <label for="Laptop">
+              <input type="checkbox" value="All" id="Laptop" />Gaming Laptop
+            </label>
+            <br />
+            <label for="Chair">
+              <input type="checkbox" value="Chair" id="Chair" />Chair
+            </label>
+            <br />
+            <label for="Key-mouse">
+              <input type="checkbox" value="Key-mouse" id="Key-mouse" />Keyboard
+              & Mouse
+            </label>
+          </div>
+          <div class="price">
+            <h4>Price</h4>
+            <input
+              type="range"
+              name="price"
+              id="price"
+              min="1000"
+              max="200000"
+              value="100500"
+            />
+            <p>₹1000 - ₹2,00,000</p>
+          </div>
+          <div class="rating">
+            <h4>Rating</h4>
+            <label for="All-R">
+              <input
+                type="radio"
+                name="rating"
+                value="All"
+                id="All-R"
+                checked
+              />All
+            </label>
+            <br />
+            <label for="4+">
+                <input type="radio" name="rating" value="4+" id="4+" />4★+
+            </label>
+            <br />
+            <label for="3+">
+              <input type="radio" name="rating" value="3+" id="3+" />3★+
+            </label>
+          </div>
+          <div class="brand">
+            <h4>Brand</h4>
+            <label for="B1">
+              <input type="checkbox" value="Logitech" id="B1" />Logitech
+            </label>
+            <br />
+            <label for="B2">
+              <input type="checkbox" value="ASUS" id="B2" />ASUS
+            </label>
+            <br />
+            <label for="B3">
+              <input type="checkbox" value="Razer" id="B3" />Razer
+            </label>
+            <br />
+            <label for="B4">
+              <input type="checkbox" value="HyperX" id="B4" />HyperX
+            </label>
+            <label for="B5">
+              <br />
+              <input type="checkbox" value="Lenovo" id="B5" />Lenovo
+            </label>
+          </div>
+        </div>
+      </aside>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <p class="new">NEW DROP • 2026</p>
+        <p class="gear">Gear up.</p>
+        <p class="win">Win more.</p>
+        <div class="btn">
+        <p class="register" id="shop">Shop Now</p>
+        <p class="Watch">Watch Trailer</p>
+        </div>
+        <div class="image-hero">
+          <img src="PS5-controller.png" alt="PS 5 controler" />
+        </div>
+      </section>
+      <!-- Products -->
+      <section class="product-section">
+        <!-- 1st Row -->
+        <div class="product-1">
+          <div class="image">
+            <p class="Hot">Hot</p>
+            <img
+              src="https://nordicgamesupply.com/cdn/shop/files/unnamed_dafbe8e4-44f1-485e-9bcf-1d1a92a414a9.png?v=1756132490"
+              alt="Razer headphone"
+            />
+          </div>
+          <p class="product-brand">Razer</p>
+          <p class="product-name">Razer Blackshark V3 Pro</p>
+          <p class="product-rating">★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹14,999</span> <span class="previous-rate">₹29,999</span>
+            <span class="discount">-50%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/Razer-BlackShark-Pro-Sports-Cancelling/dp/B0F93SPR88"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="product-2">
+          <div class="image">
+            <p class="low-price">Low Price</p>
+            <img
+              src="https://hp.widen.net/content/rxnjkhxvqr/png/rxnjkhxvqr.png?w=800&h=600&dpi=72&color=ffffff00"
+              alt="HyperX headphone"
+            />
+          </div>
+          <p class="product-brand">HyperX</p>
+          <p class="product-name">HyperX Cloud III</p>
+          <p class="product-rating">★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹19,999</span> <span class="previous-rate">₹59,999</span>
+            <span class="discount">-66%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/HyperX-Cloud-III-Multiplatform-Detachable/dp/B0F6NYQTJP"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="product-3">
+          <div class="image">
+            <img
+              src="https://dlcdnwebimgs.asus.com/gain/FC5461B1-46CE-4886-9BD3-52B1268E6BB6/w717/h525/fwebp"
+              alt="Asus monitor"
+            />
+          </div>
+          <p class="product-brand">Asus</p>
+          <p class="product-name">ASUS ROG Swift OLED</p>
+          <p class="product-rating">★★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹89,999</span> <span class="previous-rate">₹1,29,999</span>
+            <span class="discount">-30%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/ASUS-PG32UCDM-compatible-heatsink-brightness/dp/B0CW1937YK"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <!-- 2nd Row -->
+        <div class="product-4">
+          <div class="image">
+            <p class="Popular">Popular</p>
+            <img
+              src="https://p2-ofp.static.pub/fes/cms/2025/05/28/difegyviukri02eiiq9946n5vbxo5i827344.png"
+              alt="Lenovo monitor"/>
+          </div>
+          <p class="product-brand">Lenovo</p>
+          <p class="product-name">Lenovo Legion</p>
+          <p class="product-rating">★★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹16,999</span> <span class="previous-rate">₹22,999</span>
+            <span class="discount">-23%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/Lenovo-R27fc-30-68-58cm-FreeSync-67B6GAC1IN/dp/B0CV4BTBX8?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=AJ6SIZC8YQDZX&th=1"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="product-5">
+          <div class="image">
+            <img
+              src="https://p2-ofp.static.pub//fes/cms/2025/04/29/kzraayjzq2kp900lt9md2yikd5tfsm634210.png"
+              alt="Lenovo Laptop"
+            />
+          </div>
+          <p class="product-brand">Lenovo</p>
+          <p class="product-name">Lenovo Legion 7</p>
+          <p class="product-rating">★★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹2,49,999</span> <span class="previous-rate">₹3,49,999</span>
+            <span class="discount">-26%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/Lenovo-Legion-Windows-83KY001FIN-Powered/dp/B0GSQZX6WW?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=AJ6SIZC8YQDZX&th=1"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+
+        <div class="product-6">
+          <div class="image">
+            <p class="Premium">Premium</p>
+            <img
+              src="https://dlcdnwebimgs.asus.com/gain/7E6FAC1D-7B97-40EA-AA67-89D9193B3845/w1000/h732"
+              alt="Asus Laptop"
+            />
+          </div>
+          <p class="product-brand">Asus</p>
+          <p class="product-name">ASUS ROG Strix SCAR 18</p>
+          <p class="product-rating">★★★★</p>
+          <p class="rate"><span class="product-price">₹4,99,999</span></p>
+          <a
+            href="https://www.amazon.in/ASUS-Gaming-5090-24GB-Windows-G835LX-SA187WS/dp/B0F5BFQR4T?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AJ6SIZC8YQDZX"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <!-- 3rd Row -->
+        <div class="product-7">
+          <div class="image">
+            <img src="GT chair.png" alt="Gtplayer chair" />
+          </div>
+          <p class="product-brand">GTPLAYER</p>
+          <p class="product-name">GTPLAYER Gaming Chair</p>
+          <p class="product-rating">★★★</p>
+          <p class="rate">
+            <span class="product-price">₹99,999</span> <span class="previous-rate">₹1,49,999</span>
+            <span class="discount">-33%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/GTPLAYER-Footrest-Executive-Ergonomic-Armrests/dp/B0FVMGDHQM?th=1"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="product-8">
+          <div class="image">
+            <p class="Best">Best Deal</p>
+            <img src="Green soul chair.png" alt="Green soul chair" />
+          </div>
+          <p class="product-brand">Green Soul</p>
+          <p class="product-name">Raptor 2.0 Racing Edition Ergonomic Gaming Chair</p>
+          <p class="product-rating">★★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹12,999</span> <span class="previous-rate">₹23,999</span>
+            <span class="discount">-46%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/Green-Soul-Raptor-2-0-Installation/dp/B0CJ8VQ3R4?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=AXOGFIT0PZZ7G&th=1"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="product-9">
+          <div class="image">
+            <img src="Logitech Key&mouse.png" alt="Keyboard and Mouse" />
+          </div>
+          <p class="product-brand">Logitech</p>
+          <p class="product-name">Logitech MX Keys S Combo</p>
+          <p class="product-rating">★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹18,999</span> <span class="previous-rate">₹22,999</span>
+            <span class="discount">-17%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/Logitech-Keys-Combo-Customisable-Illumination/dp/B0C6JZ2ZDN/ref=asc_df_B0C6JZ2ZDN?mcid=6bcaaff3f89738df8f7687285e0f6e4d&tag=googleshopdes-21&linkCode=df0&hvadid=709855510272&hvpos=&hvnetw=g&hvrand=6150354128919327498&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9300975&hvtargid=pla-2193980624627&psc=1&hvocijid=6150354128919327498-B0C6JZ2ZDN-&hvexpln=0&gad_source=1"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <!-- 4th Row -->
+        <div class="product-10">
+          <div class="image">
+            <img src="Razer keyboard.png" alt="Keyboard" />
+          </div>
+          <p class="product-brand">Razer</p>
+          <p class="product-name">Razer BlackWidow V4 Pro 75% Wireless Gaming Keyboard</p>
+          <p class="product-rating">★★★★</p>
+          <p class="rate">
+            <span class="product-price">₹64,999</span> <span class="previous-rate">₹76,999</span>
+            <span class="discount">-15%</span>
+          </p>
+          <a
+            href="https://www.amazon.in/Razer-BlackWidow-Wireless-Gaming-Keyboard/dp/B0DD5S8TM8"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="product-11">
+          <div class="image">
+            <img src="Logitech mouse.png" alt="Mouse" />
+          </div>
+          <p class="product-brand">Logitech</p>
+          <p class="product-name">Logitech G700s Gaming Mouse</p>
+          <p class="product-rating">★★★★</p>
+          <p class="rate"><span class="product-price">₹86,999</span></p>
+          <a
+            href="https://www.amazon.in/Logitech-G700s-Rechargeable-Gaming-910-003584/dp/B00BFOEY3Y"
+            target="_blank" class="buy-now-btn"
+            >Buy Now</a
+          >
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+  <div class="footer-container">
+    <!-- Brand / Status Column -->
+    <div class="footer-brand">
+      <h3 class="footer-logo"><span>⬡</span>ARENA</h3>
+      <p class="brand-text">Equipping gamers with elite hardware to dominate the virtual battlefield. Gear up. Win more.</p>
+      <div class="server-status">
+        <span class="status-indicator"></span>
+        <span class="status-text">SYSTEMS ONLINE • PING: 12MS</span>
+      </div>
+    </div>
+
+    <!-- Navigation Column -->
+    <div class="footer-links">
+      <h4>NAVIGATION</h4>
+      <ul>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="dashboard.html" target="_blank">Dashboard</a></li>
+        <li><a href="landing.html" target="_blank">Events</a></li>
+        <li><a href="#">Support Hub</a></li>
+      </ul>
+    </div>
+
+    <!-- Community Column -->
+    <div class="footer-links">
+      <h4>COMMUNITY</h4>
+      <ul>
+        <li><a href="#">Discord Server</a></li>
+        <li><a href="#">Tournaments</a></li>
+        <li><a href="#">Clan Rankings</a></li>
+        <li><a href="#">Developer Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter Terminal Column -->
+    <div class="footer-newsletter">
+      <h4>NEWSLETTER TERMINAL</h4>
+      <p class="newsletter-desc">Subscribe for new drop notifications, tactical gear updates, and exclusive discount codes.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" placeholder="ENTER CLIENT EMAIL" class="newsletter-input" required />
+        <button type="submit" class="newsletter-btn">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright & Legal Links -->
+  <div class="footer-bottom">
+    <p class="copyright">&copy; 2026 ARENA Global Inc. All rights reserved.</p>
+    <div class="legal-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
